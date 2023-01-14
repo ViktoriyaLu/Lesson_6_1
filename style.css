@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width:1440px;
+    height:3236px;
+    background-color: #000000;
+    color:#FFFFFF ;
+    font-family:Roboto;
+    }
+    .header__nav {
+        display: flex;
+        height: 90px;
+        justify-content: space-between;
+        align-items: center;
+        
+        padding-right: 70px;
+        background-color: #1A1F38;
+    }
+    .header__button {
+        display: flex;
+        align-items: flex-end;
+        width: 475px;
+        height: 58px ;
+        border-radius: 8px;
+        justify-content: flex-end;
+        padding-right: 21px;
+        padding-top: 6px;
+        padding-bottom: 7px;
+        background-color: rgba(196, 196, 196, 0.3);
+    }
+    .header__image {
+        height: 811px;
+        background-image: url(assets/images/header.png);
+        margin-bottom: 52px;
+    }
+    .star {
+        display: flex;
+        margin-left:80px ;
+        margin-top:40px ;
+        justify-content: flex-start;
+    }
+    .main__movies ,.main__tvs{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 355px);
+        gap:1rem; 
+        margin-left:70px ;
+        margin-right: 70px;
+        margin-top: 35px;
+        margin-bottom: 127px;
+    }
+    .text1 {
+        display: inline-block;
+        margin-left: 70px;
+        margin-top: 330px;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 75px;
+        line-height: 100%;
+        /* align-items: Left; */
+    }
+    
+    .text2 {
+        /* display: inline-block; */
+        margin-left: 70px;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 58px;
+        line-height: 100%;
+        /* align-items: Left; */
+    }
+    .text3 {
+        margin-left: 80px;
+        margin-top:  20px;
+        font-weight:lighter;
+        font-size: 28px;
+        line-height: 33px;
+        line-height: 100%; 
+    }
+    .text4 {
+        margin-left: 18px;
+        margin-top:  20px;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        line-height: 100%; 
+    }
+    .text5 {
+        margin-left: 18px;
+        font-weight:lighter;
+        font-size: 12px;
+        line-height: 15px;
+        line-height: 100%; 
+    }
+
+    .text6 {
+        
+        margin-left: 14px;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .text7 {
+        margin-left: 80px;
+        margin-top: 20px;
+        font-weight:lighter;
+        font-size: 12px;
+        line-height: 15px;
+        line-height: 100%; 
+    }
